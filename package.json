@@ -1,0 +1,11 @@
+{
+  "name": "chandan-pathak-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node build.js",
+    "lint": "node --check src/main.js && node --check server.js && node --check build.js"
+  }
+}
